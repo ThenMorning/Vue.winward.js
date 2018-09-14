@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Winward.js</title>
+</head>
+
+<body>
+    <script src="./winward.js"></script>
+    <script src="./watchData.js"></script>
+    <script src="./complieData.js"></script>
+    <script src="./renderData.js"></script>
+
+    <!-- 实例挂载节点 -->
+    <div id="winwardApp">
+    </div>
+    <!-- 语法糖 -->
+    <input value="Hello,Winward!" oninput="oninputHandle(event)">
+    <script>
+        // 声明实例
+        var winward = new Winward({
+            el: '#winwardApp',
+            data: {
+                msg: "Hello,Winward",
+                a: {
+                    b: {
+                        c: "Hello,Winward!"
+                    }
+                }
+            },
+            template: "<span>{{a.b.c}}</span>"
+        });
+        function oninputHandle(event){
+            winward.$options.data.a.b.c = event.target.value
+        }
+    </script>
+</body>
+
+</html>
