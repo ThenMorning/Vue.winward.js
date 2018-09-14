@@ -27,3 +27,7 @@ vue.js最简实现(the most simple vue.js)
 ## Run Setup
 
 - `双击index.html` (`click index.html`)
+
+## Rendering
+
+<img src="https://github.com/WinwardZ/Vue.winward.js/blob/master/rendering.gif">
