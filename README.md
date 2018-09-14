@@ -9,7 +9,7 @@ vue.js最简实现(the most simple vue.js)
 ## Mind
 - vue.js是一个响应式库，在这里我将它剖开:
 - 实现响应式最少需要哪几个部分?
-- * 数据跟踪 
+- * 数据跟踪
 - * 模板编译
 - * 页面渲染
 - 所以你也可以看到功能性代码分到3个js文件中
@@ -20,7 +20,7 @@ vue.js最简实现(the most simple vue.js)
 - 页面渲染 --- renderData.js
 
 ## Todo
-- 数据跟踪 --- 实例类型(本项目中 只有一个实例，而vue有 “`app`”，“`component`”等),props 
+- 数据跟踪 --- 实例类型(本项目中 只有一个实例,而vue有 “`app`”，“`component`”等),props 
 - 模板编译 --- 生命周期,语法糖
 - 页面渲染 --- 虚拟dom
 
