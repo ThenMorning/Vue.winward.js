@@ -3,7 +3,7 @@ vue.js最简实现(the most simple vue.js)
 
 > 让所有人都看得懂Vue原理
 
-> 建议看完`代码`后，结合[vue源码解读](https://segmentfault.com/a/1190000016855180)[mpvue源码解读](https://segmentfault.com/a/1190000016389413)
+> 建议看完`代码`后，结合[vue源码解读](https://segmentfault.com/a/1190000016855180), [mpvue源码解读](https://segmentfault.com/a/1190000016389413), 
 [单页应用路由实现没那么难--Vue](https://segmentfault.com/a/1190000015373559),再看一遍Vue源码
 
 ## Mind
