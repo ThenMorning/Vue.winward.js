@@ -30,4 +30,4 @@ vue.js最简实现(the most simple vue.js)
 
 ## Rendering
 
-<img src="https://github.com/WinwardZ/Vue.winward.js/blob/master/rendering.gif">
+<img src="https://github.com/LTBLwhz/Vue.winward.js/blob/master/rendering.gif">
